@@ -28,11 +28,11 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if query.data == 'chat':
         await query.edit_message_text(
-            text="✅ Kamu bisa ngobrol dengan Guru BK secara anonim.\nSilakan ket>
+            text="✅ Kamu bisa ngobrol dengan Guru BK secara anonim.\nSilakan ketik pesanmu."
         )
     elif query.data == 'form':
         await query.edit_message_text(
-            text="📋 Silakan isi form pengaduan di sini:\nhttps://forms.gle/ehcJo>
+            text="📋 Silakan isi form pengaduan di sini:\nhttps://forms.gle/ehcJo..."
         )
 
 # Fungsi utama
