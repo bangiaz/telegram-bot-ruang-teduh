@@ -7,7 +7,7 @@ from telegram.ext import (
 )
 
 # GANTI TOKEN INI DENGAN TOKEN BOT LO (sudah gue pasangin)
-TOKEN = "8414995980:AAGlhVaWmmjr3ZA1tIlKq0Mgjab-ukCkrdk"
+TOKEN = "8394502018:AAHUPoagzZ8K7IxW8XPTi6deElFZDYhTkZ8"
 
 # Fungsi /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -47,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
